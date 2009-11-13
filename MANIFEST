@@ -1,0 +1,11 @@
+ChangeLog
+MANIFEST
+Makefile.PL
+PODTAIL.txt
+README
+bin/ftpssl-get
+lib/Net/FTPSSL/Robust.pm
+lib/Net/FTPSSL/Robust.pod
+t/01use.t
+t/99pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
