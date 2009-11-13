@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Net-FTPSSL-Robust
-version:             0.01
+version:             0.02
 abstract:            download directories over FTP with SSL or TLS encryption
 license:             perl
 author:              
@@ -9,7 +9,7 @@ generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Log::Report:                   0.25
-    Net::FTP::Robust:              0.03
+    Net::FTP::Robust:              0.04
     Net::FTPSSL:                   0.12
     Test::Pod:                     1.00
 meta-spec:

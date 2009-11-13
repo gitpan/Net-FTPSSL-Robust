@@ -7,7 +7,7 @@ use strict;
 
 package Net::FTPSSL::Robust;
 use vars '$VERSION';
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use base 'Net::FTP::Robust', 'Exporter';
 
@@ -55,6 +55,9 @@ sub _modif_time($$)
 {   my ($self, $ftp, $fn) = @_;
     $ftp->_mdtm($fn);
 }
+
+# not implemented/not possible?
+sub _can_restart($$$) { 0 }
 
 
 1;
