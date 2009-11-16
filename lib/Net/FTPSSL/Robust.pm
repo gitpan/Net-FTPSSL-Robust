@@ -7,7 +7,7 @@ use strict;
 
 package Net::FTPSSL::Robust;
 use vars '$VERSION';
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 use base 'Net::FTP::Robust', 'Exporter';
 

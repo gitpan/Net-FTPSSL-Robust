@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Net-FTPSSL-Robust
-version:             0.02
+version:             0.03
 abstract:            download directories over FTP with SSL or TLS encryption
 license:             perl
 author:              
