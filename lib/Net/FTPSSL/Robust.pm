@@ -1,13 +1,13 @@
-# Copyrights 2009 by Mark Overmeer.
+# Copyrights 2009-2011 by Mark Overmeer.
 #  For other contributors see ChangeLog.
 # See the manual pages for details on the licensing terms.
-# Pod stripped from pm file by OODoc 1.06.
+# Pod stripped from pm file by OODoc 2.00.
 use warnings;
 use strict;
 
 package Net::FTPSSL::Robust;
 use vars '$VERSION';
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 use base 'Net::FTP::Robust', 'Exporter';
 
@@ -58,8 +58,7 @@ sub _modif_time($$)
 
 sub _ls($) { $_[1]->nlst }
 
-# not implemented/not possible?
-sub _can_restart($$$) { 0 }
+sub _can_restart($$$) { 1 }
 
 
 1;
